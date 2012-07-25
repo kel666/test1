@@ -1,3 +1,3 @@
-[submodule "jmvc_test\\WebContent\\documentjs"]
-	path = jmvc_test\\WebContent\\documentjs
-	url = https://github.com/kel666/documentjs.git
+[submodule "jmvc_test\\WebContent\\funcunit"]
+	path = jmvc_test\\WebContent\\funcunit
+	url = https://github.com/kel666/funcunit.git
