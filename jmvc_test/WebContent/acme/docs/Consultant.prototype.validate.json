@@ -1,0 +1,1 @@
+c({"name": "Consultant.prototype.validate", "params": {}, "ret": {"description": "<p>true se l'istanza &egrave; corretta, altrimenti false</p>", "type": "boolean"}, "type": "function", "parents": ["Consultant.prototype"], "comment": "<p>Controlla che l'istanza del consulente sia formalmente corretta. </p>", "src": "ACME/models/consultant.js", "line": 88, "children": []})

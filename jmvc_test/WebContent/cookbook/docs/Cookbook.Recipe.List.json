@@ -1,0 +1,1 @@
+c({"name": "Cookbook.Recipe.List", "type": "class", "comment": "<p>Lists recipes and lets you destroy them.</p>", "parents": ["index"], "inherits": "jQuery.Controller", "src": "cookbook/recipe/list/list.js", "line": 8, "children": ["Cookbook.Recipe.List.static", "Cookbook.Recipe.List.prototype"]})

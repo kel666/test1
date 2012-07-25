@@ -1,0 +1,1 @@
+c({"name": "Consultants.prototype.field", "type": "attribute", "parents": ["Consultants.prototype"], "comment": "<p>Per la modalit&agrave; ricerca (mode=\"all\"), campo di ricerca: </p>\n\n<ul>\n<li>\"name\" - per nome</li>\n<li>\"lname\" - per cognome</li>\n<li>\"fc\" - per codice fiscale</li>\n</ul>", "src": "ACME/consultant/consultant_list.js", "line": 34, "children": []})

@@ -1,0 +1,23 @@
+  <table <%= ($el) -> $el.model(this) %>>
+  	<tr>
+  		<td>Nome</td>
+  		<td><input type="text" class="name" value="<%= this.name %>" />
+  		<div class="error"><%= this.errs['name'] %></div></td>
+  	</tr>
+  	<tr>
+  		<td>Cognome</td>
+  		<td><input type="text" class="lname" value="<%= this.lname %>" />
+  		<div class="error"><%= this.errs['lname'] %></div></td>
+  	</tr>
+  	<tr>
+  		<td>C.F.</td>
+  		<td><input type="text" class="fc" value="<%= this.fc %>" />
+  		<div class="error"><%= this.errs['fc'] %></div></td>
+  	</tr>
+  	<tr>
+  		<td></td>
+  		<td>
+  		<div class="error"><%= this.errs['generic'] %></div></td>
+  	</tr>
+  </table>
+  <input type="button" class="save" value="Salva" />

@@ -1,0 +1,8 @@
+<% $.each(this.data, function(i, consultant){ %>
+  <option <%= ($el) -> $el.model(consultant) %> value="<%= consultant.id %>" 
+  <% if (selected==consultant.id)  { %>selected<% } %>  >
+  	<%= consultant.name %> <%= consultant.lname %>
+  </option>
+<%
+})
+%>

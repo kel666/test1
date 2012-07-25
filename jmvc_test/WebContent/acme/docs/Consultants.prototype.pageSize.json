@@ -1,0 +1,1 @@
+c({"name": "Consultants.prototype.pageSize", "type": "attribute", "parents": ["Consultants.prototype"], "comment": "<p>Records per pagina </p>", "src": "ACME/consultant/consultant_list.js", "line": 25, "children": []})

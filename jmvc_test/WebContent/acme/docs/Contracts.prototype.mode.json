@@ -1,0 +1,1 @@
+c({"name": "Contracts.prototype.mode", "type": "attribute", "parents": ["Contracts.prototype"], "comment": "<p>Modalit&agrave; di lavoro del widget:</p>\n\n<ul><li>\"all\" - elenca tutti i consulenti</li>\n<li>\"search\" - elenca i consulenti secondo i criteri di ricerca</li></ul> ", "src": "ACME/contract/contract_list.js", "line": 28, "children": []})

@@ -1,0 +1,1 @@
+c({"name": "MIN_TIME", "type": "attribute", "comment": "<p>Minimum time a test should take to get valid results (secs) </p>", "src": "ACME/JSLitmus.js", "line": 155, "children": []})

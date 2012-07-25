@@ -1,0 +1,1 @@
+c({"name": "params", "type": "attribute", "comment": "<p>The parsed query parameters the current page URL.  This is provided as a\nconvenience for test functions - it's not used by JSLitmus proper</p>", "src": "ACME/JSLitmus.js", "line": 397, "children": []})

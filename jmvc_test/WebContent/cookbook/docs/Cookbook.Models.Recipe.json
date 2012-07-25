@@ -1,0 +1,1 @@
+c({"name": "Cookbook.Models.Recipe", "type": "class", "comment": "<p>Wraps backend recipe services.  </p>", "parents": ["index"], "inherits": "jQuery.Model", "src": "cookbook/models/recipe.js", "line": 2, "children": ["Cookbook.Models.Recipe.static", "Cookbook.Models.Recipe.prototype"]})

@@ -1,0 +1,1 @@
+c({"name": "Disc.static", "type": "static", "parents": ["Disc"], "comment": "", "src": "disc/disc.js", "line": 28, "children": ["Disc.static.indexOf"]})

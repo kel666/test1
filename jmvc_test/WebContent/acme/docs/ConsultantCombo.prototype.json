@@ -1,0 +1,1 @@
+c({"name": "ConsultantCombo.prototype", "type": "prototype", "parents": ["ConsultantCombo"], "comment": "", "src": "ACME/commons/consultantCombo.js", "line": 11, "children": ["ConsultantCombo.prototype.load"]})

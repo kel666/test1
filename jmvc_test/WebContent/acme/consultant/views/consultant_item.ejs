@@ -1,0 +1,30 @@
+<% $.each(this, function(i, consultant){ %>
+  <tr <%= ($el) -> $el.model(consultant) %>>
+  	<td class="cell"><%= consultant.name %></td>
+  	<td class="cell"><%= consultant.lname %></td>
+  	<td class="cell"><%= consultant.fc %></td>
+    <td><a href="javascript://" class='modify'></a></td>
+    <td><a href="javascript://" class='destroy'></a></td>
+  </tr>
+<%
+if (consultant.conts.length>0) {
+%>
+	<tr>
+		<td></td><td></td>
+		<td class="subitem">Contratti:</td>
+	</tr>
+<%
+}
+// scan contracts
+for(var c=0; c<consultant.conts.length; c++) {
+	%>
+	<tr>
+		<td></td><td></td>
+		<td class="subitem"><%= consultant.conts[c].id %> (<%= consultant.conts[c].customer %>)</td>
+	</tr>
+	<%
+}
+// check last item
+if (consultant.lastRecord) $(".next").removeClass("right");  
+})
+%>

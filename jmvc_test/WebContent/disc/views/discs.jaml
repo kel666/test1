@@ -1,0 +1,4 @@
+function(data) {
+	li({cls: "disc"}, data.name, 
+		a({cls: "destroy", href: "javascript://"}, 'X'));
+}

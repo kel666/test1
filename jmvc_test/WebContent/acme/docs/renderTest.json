@@ -1,0 +1,1 @@
+c({"name": "renderTest", "params": {"test": {"description": "", "type": "", "optional": false, "order": 0, "name": "test"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>(Re)render the results for a specific test</p>", "src": "ACME/JSLitmus.js", "line": 473, "children": []})

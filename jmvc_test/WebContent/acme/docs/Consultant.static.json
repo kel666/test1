@@ -1,0 +1,1 @@
+c({"name": "Consultant.static", "type": "static", "parents": ["Consultant"], "comment": "", "src": "ACME/models/consultant.js", "line": 14, "children": ["Consultant.static.indexOf"]})

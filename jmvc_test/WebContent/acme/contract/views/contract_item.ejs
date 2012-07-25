@@ -1,0 +1,12 @@
+<% $.each(this, function(i, contract){ %>
+  <tr <%= ($el) -> $el.model(contract) %>>
+  	<td class="cell"><%= contract.id %></td>
+  	<td class="cell"><%= contract.customer %></td>
+  	<td class="cell"><%= formatDate(contract.date) %></td>
+  	<td class="cell"><%= contract.consultantName %></td>
+    <td><a href="javascript://" class='modify'></a></td>
+    <td><a href="javascript://" class='destroy'></a></td>
+  </tr>
+<%
+})
+%>

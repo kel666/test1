@@ -1,0 +1,19 @@
+<% if (this.error!="") { %>
+<tr>
+<th colspan="4" class="error"><%= this.error %></th>
+<tr>
+<% 
+this.error="";
+} %>
+  	<tr>
+  		<th class="colName cell">Nome</th>
+  		<th class="colLname cell">Cognome</th>
+  		<th class="colFC cell">C.F.</th>
+  		<th><a href="javascript://" class='add'></a></th>
+  		<th>
+  		<% if (this.page!=1) { %>
+  			<a href="javascript://" class='prev left'></a>
+  		<% } %>
+  		<div class="nextDiv"><a href='javascript://' class='next right'></a></div>
+  		</th>
+  	</tr>

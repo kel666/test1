@@ -1,0 +1,38 @@
+<style type="text/css">
+div.keySecureCode {
+	position: relative;
+}
+
+div.keySecureCode .digit {
+	position: absolute;	
+	width: 30px;
+	height: 30px;
+}
+
+div.keySecureCode span.digit {
+	background-color: gray;
+	border: gray 1px solid;
+}
+
+div.keySecureCode input.digit {
+	font-size: 20px;
+}
+
+div.keySecureCode .digit.asked {
+	background-color: white;
+	border: 1px black solid;
+}
+</style>
+
+
+<div class="keySecureCode">
+		<span class="digit" id="key_digit_0">1</span>
+		<span class="digit asked" id="key_digit_1">
+			<input class="digit" type="password" id="key_value_1" size="1" maxlength="1" />
+		</span>
+		<span class="digit" id="key_digit_2">2</span>
+		<span class="digit asked" id="key_digit_3">
+			<input class="digit" type="password" id="key_value_3" size="1" maxlength="1" />
+		</span>
+		<span class="digit" id="key_digit_4">3</span>
+</div>

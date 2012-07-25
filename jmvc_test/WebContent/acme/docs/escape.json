@@ -1,0 +1,1 @@
+c({"name": "escape", "params": {"s": {"description": "", "type": "", "optional": false, "order": 0, "name": "s"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>Enhanced version of escape()</p>", "src": "ACME/JSLitmus.js", "line": 29, "children": []})

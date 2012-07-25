@@ -1,0 +1,1 @@
+c({"name": "Consultant.prototype.fc", "type": "attribute", "parents": ["Consultant.prototype"], "comment": "<p>Codice fiscale del consulente </p>", "src": "ACME/models/consultant.js", "line": 81, "children": []})

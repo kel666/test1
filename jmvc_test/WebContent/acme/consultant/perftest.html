@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>Peformance test</head>
+<body>
+	<script type='text/javascript' src='../../steal/steal.js'></script>
+	<script type='text/javascript' src='../JSLitmus.js'></script>
+	<script type="text/javascript">
+		steal('jquery/class', 'acme/models/consultant.js', function($) {
+			// definizione dei test tramite descrizione e funzione di testing
+			JSLitmus.test("Inserimento consulente", insertConsultant);
+			JSLitmus.test("Ricerca consulente", searchConsultant);
+			JSLitmus.test("Cancella consulente", deleteConsultant);
+			var last = 0;
+			function insertConsultant() {
+				var c1 = new Consultant();
+				c1.attr("name", "Performance");
+				c1.attr("lname", "Test");
+				c1.attr("fc", "PRFTST666XXX");
+				c1.save(function(cons) {
+					last = parseInt(cons.attr("id"));
+				});
+			}
+			function searchConsultant() {
+				Consultant.search({
+					field : "name",
+					val : "Performance"
+				});
+			}
+			function deleteConsultant() {
+				Consultant.findOne({
+					id : last
+				}, function(cons) {
+					if (cons) cons.destroy();
+				});
+				last--;
+			}
+		});
+	</script>
+
+</body>
+</html>

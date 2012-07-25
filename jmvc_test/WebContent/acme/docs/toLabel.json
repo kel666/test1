@@ -1,0 +1,1 @@
+c({"name": "toLabel", "params": {"n": {"description": "", "type": "", "optional": false, "order": 0, "name": "n"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>Convert a number to an abbreviated string like, \"15K\" or \"10M\"</p>", "src": "ACME/JSLitmus.js", "line": 60, "children": []})

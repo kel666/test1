@@ -1,0 +1,1 @@
+c({"name": "Contract.prototype.validate", "params": {}, "ret": {"description": "<p>true se l'istanza &egrave; corretta, altrimenti false</p>", "type": "boolean"}, "type": "function", "parents": ["Contract.prototype"], "comment": "<p>Controlla che l'istanza del contratto sia formalmente corretta. </p>", "src": "ACME/models/contract.js", "line": 70, "children": []})

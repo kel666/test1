@@ -1,0 +1,1 @@
+c({"name": "test", "params": {"name": {"description": "", "type": "", "optional": false, "order": 0, "name": "name"}, "f": {"description": "", "type": "", "optional": false, "order": 1, "name": "f"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>Create a new test</p>", "src": "ACME/JSLitmus.js", "line": 520, "children": []})

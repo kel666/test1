@@ -1,0 +1,1 @@
+c({"name": "extend", "params": {"dst": {"description": "", "type": "", "optional": false, "order": 0, "name": "dst"}, "src": {"description": "", "type": "", "optional": false, "order": 1, "name": "src"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>Copy properties from src to dst</p>", "src": "ACME/JSLitmus.js", "line": 79, "children": []})

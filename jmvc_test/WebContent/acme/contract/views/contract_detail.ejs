@@ -1,0 +1,27 @@
+  <table <%= ($el) -> $el.model(this) %>>
+  	<% if (!this.id) { %>
+  	<tr>
+  		<td>Codice</td>
+  		<td><input type="text" class="code" value="<%= this.code %>" />
+  		<div class="error"><%= this.errs['code'] %></div></td>
+  	</tr>
+  	<% } %>
+  	<tr>
+  		<td>Cliente</td>
+  		<td><input type="text" class="customer" value="<%= this.customer %>" />
+  		<div class="error"><%= this.errs['customer'] %></div></td>
+  	</tr>
+  	<tr>
+  		<td>Data contratto</td>
+  		<td><input type="text" class="date datepicker" value="<%= formatDate(this.date) %>" />
+  		<div class="error"><%= this.errs['date'] %></div></td>
+  	</tr>
+  	<tr>
+  		<td>Consulente</td>
+  		<td>
+  		<select class="consultantId" name="consultant" <%= consultantCombo(this.consultantId) %>>
+  		</select>
+  		<div class="error"><%= this.errs['consultant'] %></div></td>
+  	</tr>
+  </table>
+  <input type="button" class="save" value="Salva" />

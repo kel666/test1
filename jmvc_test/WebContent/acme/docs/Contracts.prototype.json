@@ -1,0 +1,1 @@
+c({"name": "Contracts.prototype", "type": "prototype", "parents": ["Contracts"], "comment": "", "src": "ACME/contract/contract_list.js", "line": 21, "children": ["Contracts.prototype.pageSize", "Contracts.prototype.mode", "Contracts.prototype.field", "Contracts.prototype.val", "Contracts.prototype.load"]})

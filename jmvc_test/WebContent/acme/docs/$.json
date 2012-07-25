@@ -1,0 +1,1 @@
+c({"name": "$", "params": {"id": {"description": "", "type": "", "optional": false, "order": 0, "name": "id"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>Get an element by ID.</p>", "src": "ACME/JSLitmus.js", "line": 40, "children": []})

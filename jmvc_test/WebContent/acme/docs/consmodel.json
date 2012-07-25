@@ -1,0 +1,1 @@
+c({"name": "consmodel", "type": "page", "comment": "<h3>Modelli</h3>", "title": "Modelli ", "parents": ["cons"], "src": "ACME/models/consultant.js", "line": 0, "children": ["Consultant"]})

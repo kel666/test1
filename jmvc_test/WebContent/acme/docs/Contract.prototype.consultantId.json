@@ -1,0 +1,1 @@
+c({"name": "Contract.prototype.consultantId", "type": "attribute", "parents": ["Contract.prototype"], "comment": "<p>ID consulente associato </p>", "src": "ACME/models/contract.js", "line": 63, "children": []})

@@ -1,0 +1,1 @@
+c({"name": "cont", "type": "page", "comment": "<h3>Modelli e controller per i contratti</h3>", "title": "Contratti", "parents": ["index"], "src": "ACME/contract/contract_list.js", "line": 0, "children": ["Contracts", "contmodel"]})

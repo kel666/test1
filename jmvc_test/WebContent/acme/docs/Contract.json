@@ -1,0 +1,1 @@
+c({"name": "Contract", "type": "class", "comment": "", "parents": ["contmodel"], "construct": "<p>Crea un oggetto di tipo Contract</p>", "ret": {"type": "contract", "description": ""}, "src": "ACME/models/contract.js", "line": 11, "children": ["Contract.static", "Contract.prototype"]})

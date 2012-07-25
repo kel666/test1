@@ -1,0 +1,1 @@
+c({"name": "renderAll", "params": {}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>(Re)render all the test results</p>", "src": "ACME/JSLitmus.js", "line": 451, "children": []})

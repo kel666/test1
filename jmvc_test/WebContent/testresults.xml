@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite time="17.518" tests="4" errors="0" failures="0" assertions="5" name="contract">
+    <testcase class="QUnit.contract" name="insert">
+    </testcase>
+    <testcase class="QUnit.contract" name="datecheck1">
+    </testcase>
+    <testcase class="QUnit.contract" name="revise">
+    </testcase>
+    <testcase class="QUnit.contract" name="delete">
+    </testcase>
+  </testsuite>
+</testsuites>

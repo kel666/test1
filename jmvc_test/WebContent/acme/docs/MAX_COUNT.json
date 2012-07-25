@@ -1,0 +1,1 @@
+c({"name": "MAX_COUNT", "type": "attribute", "comment": "<p>Max iterations allowed (i.e. used to detect bad looping functions) </p>", "src": "ACME/JSLitmus.js", "line": 153, "children": []})

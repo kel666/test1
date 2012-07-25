@@ -1,0 +1,1 @@
+c({"name": "status", "params": {"msg": {"description": "", "type": "", "optional": false, "order": 0, "name": "msg"}}, "ret": {"type": "undefined", "description": ""}, "type": "function", "comment": "<p>Set the status shown in the UI</p>", "src": "ACME/JSLitmus.js", "line": 52, "children": []})

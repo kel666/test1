@@ -1,0 +1,1 @@
+c({"name": "Cookbook.Recipe.Create", "type": "class", "comment": "<p>Creates recipes</p>", "parents": ["index"], "inherits": "jQuery.Controller", "src": "cookbook/recipe/create/create.js", "line": 7, "children": ["Cookbook.Recipe.Create.prototype"]})

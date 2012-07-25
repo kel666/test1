@@ -1,0 +1,1 @@
+c({"name": "Contract.prototype.id", "type": "attribute", "parents": ["Contract.prototype"], "comment": "<p>Codice del contratto </p>", "src": "ACME/models/contract.js", "line": 54, "children": []})

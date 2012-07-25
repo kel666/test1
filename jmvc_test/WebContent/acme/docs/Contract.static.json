@@ -1,0 +1,1 @@
+c({"name": "Contract.static", "type": "static", "parents": ["Contract"], "comment": "", "src": "ACME/models/contract.js", "line": 17, "children": ["Contract.static.indexOf"]})

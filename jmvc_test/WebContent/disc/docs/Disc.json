@@ -1,0 +1,1 @@
+c({"name": "Disc", "type": "class", "comment": "", "parents": ["index"], "construct": "<p>Creates a new disc.</p>", "ret": {"type": "disc", "description": ""}, "src": "disc/disc.js", "line": 21, "children": ["Disc.static"]})

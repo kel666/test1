@@ -1,0 +1,1 @@
+<li class="disc">{%= name %} <a href="javascript://">X</a></li>
